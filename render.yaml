@@ -2,7 +2,6 @@ services:
   - type: web
     name: carProject-final
     runtime: docker
-    plan: starter
     envVars:
       - key: JAVA_VERSION
         value: 17
