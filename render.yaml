@@ -1,7 +1,9 @@
 services:
   - type: web
     name: carProject-final
-    runtime: docker
+    runtime: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
     envVars:
       - key: JAVA_VERSION
         value: 17
