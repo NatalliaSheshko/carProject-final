@@ -13,3 +13,13 @@ services:
         value: root
       - key: DB_PASS
         value: 123456
+
+  - type: private
+    name: mysql-db
+    runtime: docker
+    repo: https://github.com/render-examples/mysql
+    plan: starter
+    disk:
+      name: mysql-disk
+      mountPath: /var/lib/mysql
+      sizeGB: 10
