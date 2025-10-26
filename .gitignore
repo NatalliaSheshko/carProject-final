@@ -1,0 +1,61 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+*.tmp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# JSP
+*.jsp~
+*.jsp.backup
+
+# Spring Boot
+.env
+*.properties
+*.yml
+application.properties
+application.yml
+
+# MySQL (локальные базы и дампы)
+*.sql
+*.db
+*.h2.db
+
+# Build tools
+.gradle/
+build/
+bin/
+
+# Flyway (если используешь миграции)
+flyway.conf
+
+# Logs
+*.log
+*.trace
+*.pid
+
+# IDE-specific
+.vscode/
+*.swp
+
+# Misc
+*.bak
+*.old
+*.orig
