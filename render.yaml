@@ -7,8 +7,8 @@ services:
       - key: JAVA_VERSION
         value: 17
       - key: DB_URL
-        value: jdbc:mysql://mysql-db:3306/ecommjava?createDatabaseIfNotExist=true
+        value: jdbc:mysql://containers.railway.app:3306/railway?createDatabaseIfNotExist=true
       - key: DB_USER
         value: root
       - key: DB_PASS
-        value: 123456
+        value: OKlLFDplVCDKiBMOvbDHMmSUETeiEwLe
